@@ -1,13 +1,23 @@
 
-
-
+#nav{
+    
+    background-color: #af8b6f;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    
+}
+.nav{
+    text-align: center;
+}
 .img1
-{
-    background-image: url("../Image/b1.png");
+{margin-top: -5px;
+    background-image: url("../Image/Artboard\ 11.png");
    background-repeat: no-repeat;
     height: 600px;
-    width: 1900px;
+    width: 1910px;
     position: absolute;
+    
 }
 .img2
 {   background-image: url("../Image/b3.png");
@@ -29,10 +39,14 @@
     margin: -20px;
 }
 /* ************************************************ */
-
+#dp{
+    position: absolute;
+    margin-left: 20%;
+}
 
 /* ********************objective Start********************** */
 #p2{
+    margin-top: -20%;
 text-align: center;
 font-size: 25px;
 margin-left: 5%;
@@ -50,14 +64,14 @@ color: #707070;
 }
 
 .dd{
-    background-color: grey;
+    background-color: #F2FA5A;
     height: 15px;
     width: 300px;
     border-radius: 10px;
 }
 
 .dd2{
-    background-color: grey;
+    background-color: #F2FA5A;
     height: 15px;
     width: 300px;
     margin-left: 60px;  
@@ -103,6 +117,9 @@ color: #707070;
     border: rgb(134, 129, 129) 1px solid;
     margin-right: 61%;
     margin-top: 5%;
+}
+.button1:hover{
+    background-color: #04f024;
 }
 
 #c2{
@@ -168,6 +185,9 @@ color: #707070;
     width: 120px;
     height: 36px;
 }
+.button2:hover{
+    background-color: #04f024;
+}
 /* *********************PECENT PROJECTS End ******************* */
 
 
@@ -224,6 +244,9 @@ color: #707070;
     border-radius: 30px;
     width: 120px;
     height: 36px;
+}
+.button3:hover{
+    background-color: #04f024;
 }
 /* ***********************EXPERINCE End*********************** */
 
@@ -311,17 +334,98 @@ color: #707070;
 }
 /* ***********************Footer END************************* */
 
-/* **************************************************************************** screen1440px************************************************************************** */
-@media screen and (max-width: 1440px){
+
+
+
+
+
+
+
+
+/* **************************************************************************** screen 1496px************************************************************************** */
+
+
+@media screen and (max-width: 1496px){
+#dp {
+    width: 100%;
+    margin-left: 2%;
+}
+#p2{
+    margin-top: -11%;
+    margin-left: 31%;
+}
+#c1{
+    margin-left:30%;
+    width: 100%;
+}
+#dbox{margin-left: 21%;
+    width:100%  ; 
+    margin-top: -10%;
+}
+#c2{ margin-left: 30%;
+    width: 108%;
+}
+
+#M{
+    width: 100%;
+    margin-left: 20%;
+}
+#c3
+{
+    width: 100%;
+    margin-left: 30%;
+}
+.footer-black{
+    width: 127%;
+
+}
+.footer{
+    width: 127%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* **************************************************************************** screen 1440px************************************************************************** */
+@media screen and (max-width: 1440px) and (min-width: 768px) { 
   main{
       margin-left: 23%;
+
   }
+#c1{
+    width: 120%;
+    margin-left:  14%;
+}
   #p2
-  {
-      margin-left:11%;}
+  {margin-top: -14%;
+      margin-left:-9%;
+    }
+#dbox{
+    width: 120%;
+    margin-left:-2% ;
+}
 
-
-
+#c2{
+    width: 120%;
+    margin-left: 13% ;
+}
+#M{
+    width: 120%;
+    margin-left: -1%;
+}
+#c3{
+    width: 120%;
+    margin-left:12%;
+}
 .footer-black{
     width: 132%;
    
@@ -338,12 +442,13 @@ color: #707070;
 {  
 
 #dp{
-    width: 200%;
+    width: 160%;
 }
 
 #p2{
-    width: 60%;
-    margin-left: 20%;
+    margin-top: -12%;
+    width: 74%;
+    margin-left: 11%;
     font-size: 30px;
 }
 .dd{
@@ -353,7 +458,7 @@ color: #707070;
     margin-left:auto;
 }
 #c1{
-    margin-top: 10%;
+    margin-top: 25%;
     width: 153%;
    
 }
@@ -421,7 +526,9 @@ color: #707070;
 width: 200%;
 }    
 #p2{
-    margin-left: 24%;
+    margin-top: -9%;
+
+    margin-left: 9%;
 }
 
 #c1{
@@ -505,35 +612,52 @@ margin-left: -12px;
         background-image: url("../Image/b21.png");
         width: 1076px;
 }
-    
+.img2{
+    margin-left: 38%;
+}
 #p1
 {
         color: white;
 }
+#c1{
+    width: 225% ;
+    margin-left: 31% ;
+}
+
 #dp
 {
+    width: 200%;
     height: 200px;
-    width: 236%;
+    
 }
 #p2
-{margin-top: -18%;
-    font-size:28px ;
+{margin-top: -37%;
+    font-size:25px ;
     margin-left: 1%;
+}
+#dbox{
+    width: 203%;
 }
 .dd2{
     display:none;
 }
 .dd{
+    margin-top: -6%;
+    margin-left: 10%;
     height: 30px;
-    width: 100%;
+    width: 75%;
 }
 #p3{
 
     background-color: #DFD5D5;
     border:2px dashed gray;
-    margin-top: -48px;
-    margin-left: 38%;    
+    margin-top: -66px;
+    margin-left: 37%;    
 }
+#c2{
+    width: 220%;
+}
+
 .box1{
     
     width: 300px;
@@ -550,18 +674,19 @@ margin-left: -12px;
     display: none;
 }
 .dd3{
+    margin-left: 13%;
     height: 30px;
-    width: 66%;
+    width: 75%;
 }
 #p4{
-    margin-left: 27%;
+    margin-left: 36%;
     margin-top: -5%;
     
     background-color: #DFD5D5;
     border:2px dashed gray;
 } 
 #M{
-    margin-left:113%;
+    margin-left:94%;
 }
 #m1{
     font-size: 25px;
@@ -577,7 +702,8 @@ margin-left: -12px;
 }
 
 #c3{
-    width: 261%;
+    margin-left: 49%;
+    width: 220%;
 }
 .dd6{
     display: none;
@@ -591,7 +717,7 @@ margin-left: -12px;
 }
 #p5{
 
-    margin-left: 32%;
+    margin-left: 35%;
     margin-top: -6%;
     
     background-color: #DFD5D5;
@@ -600,7 +726,7 @@ margin-left: -12px;
 }
 #BOX2{
     height: 268px;
-   margin-left: -2%;
+   margin-left: 2%;
 
 }
 #p6{
@@ -615,5 +741,36 @@ margin-left: -12px;
 .footer-text{
     margin-top:  -12%;
     font-size: 20px;
+}
+}
+/* ******************************************************************************screen 375px****************************************************************************** */
+@media screen and (max-width: 375px){
+
+    .dd
+    {
+        margin-left: 15%;
+    }
+#p3
+{
+    margin-left: 38%;
+}
+.dd3{
+margin-left: 16%;
+}
+#p4{
+    margin-left: 38%;
+}
+.dd5{
+    margin-left: 11%;
+}
+.footer-black{
+    width: 287%;
+}
+.footer{
+    width: 287%;
+}
+
+#M{
+    margin-left: 97%;
 }
 }
