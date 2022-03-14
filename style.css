@@ -773,7 +773,7 @@ margin-left: -12px;
 }
 }
 /* ******************************************************************************screen 375px****************************************************************************** */
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) and (min-width: 320px){
 
     .dd
     {
@@ -802,4 +802,89 @@ margin-left: 16%;
 #M{
     margin-left: 97%;
 }
+}
+/* ******************************************************************************screen 320px****************************************************************************** */
+@media screen and (max-width: 320px){
+    .img1
+{
+        background-image: url("Image/b21.png");
+        width: 1155px;
+}
+#p1{color: silver;
+    
+
+}
+#p2{margin-left: 5%;
+    margin-top: 5%;
+}
+#c1{
+    width:343% ;
+    }
+    #dbox{
+        margin-left: -13%;
+    width: 388%;
+    margin-top: -2%;
+    }
+    #c2{
+        width: 352%;
+    }
+    #M{    margin-left: 139%;}
+
+    #c3{ width: 354%;}
+    .footer-black{
+        width: 364%;
+    }
+    .footer{
+        width: 364%;
+        height: 300px;
+    }
+        .dd{display: none;}
+        .dd2{display: none;}
+        .dd3{display: none;}
+        .dd4{display: none;}
+        .dd5{display: none;}
+        .dd6{display: none;}
+      
+           
+    
+}
+/* ******************************************************************************screen 320px****************************************************************************** */
+@media screen and (max-width: 316px){
+
+    .img1
+    {
+            background-image: url("Image/b21.png");
+            width: 1155px;
+    }
+    #p1{color: silver;
+        
+    
+    }
+    #p2{margin-left: 5%;
+        margin-top: 5%;
+    }
+    #c1{
+        width:343% ;
+        }
+        #dbox{
+            margin-left: -13%;
+        width: 388%;
+        margin-top: -2%;
+        }
+        #c2{
+            width: 352%;
+        }
+        #M{    margin-left: 139%;}
+    
+        #c3{ width: 354%;}
+        .footer-black{
+            width: 364%;
+        }
+        .footer{
+            width: 364%;
+            height: 300px;
+        }
+            
+               
+
 }
