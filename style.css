@@ -383,7 +383,7 @@ color: #ffffff;
     margin-top: 284px;
 }
 #dbox{margin-left: 20%;
-    width:100%  ; 
+    width:101%  ; 
     margin-top: 8%;
 }
 #c2{ margin-left: 30%;
@@ -675,8 +675,7 @@ margin-left: -12px;
 }
 #p3{
 
-    background-color: #DFD5D5;
-    border:2px dashed gray;
+   color: white;
     margin-top: -46px;
     margin-left: 37%;    
 }
@@ -709,12 +708,11 @@ margin-left: -12px;
 }
 #p4{
     margin-left: 36%;
-    margin-top: -5%;
-    
-    background-color: #DFD5D5;
-    border:2px dashed gray;
+    margin-top: -4%;
+    color: white;
 } 
 #M{
+    margin-top: 3%;
     margin-left:94%;
 }
 #m1{
@@ -731,6 +729,7 @@ margin-left: -12px;
 }
 
 #c3{
+    margin-top: 14%;
     margin-left: 49%;
     width: 220%;
 }
@@ -747,10 +746,9 @@ margin-left: -12px;
 #p5{
 
     margin-left: 35%;
-    margin-top: -6%;
+    margin-top: -4.3%;
     
-    background-color: #DFD5D5;
-    border:2px dashed gray;
+ 
 
 }
 #BOX2{
@@ -771,26 +769,39 @@ margin-left: -12px;
     margin-top:  -12%;
     font-size: 20px;
 }
+#nav{
+    margin-left: 26%;
+}
 }
 /* ******************************************************************************screen 375px****************************************************************************** */
 @media screen and (max-width: 375px) and (min-width: 320px){
 
     .dd
     {
+        height: 49px;
         margin-left: 15%;
     }
 #p3
 {
-    margin-left: 38%;
+    margin-top: -7%;
+    margin-left: 37%;
+    color: white;
+
 }
 .dd3{
-margin-left: 16%;
+    height: 49px;
+    margin-left: 17%;
 }
 #p4{
+    margin-top: -6%;
     margin-left: 38%;
 }
-.dd5{
+.dd5{height: 49px;
     margin-left: 11%;
+    
+}
+#p5{
+    margin-top: -6.3%;
 }
 .footer-black{
     width: 287%;
@@ -800,6 +811,7 @@ margin-left: 16%;
 }
 
 #M{
+    margin-top: 11%;
     margin-left: 97%;
 }
 }
@@ -817,13 +829,26 @@ margin-left: 16%;
 #p2{margin-left: 5%;
     margin-top: 5%;
 }
+#p3 {
+    margin-top: 18%;
+    margin-left: 36%;
+    color: white;
+}
+#p4 {
+    margin-top: 2%;
+    margin-left: 33%;
+}
+#p5 {
+    margin-left: 38%;
+    margin-top: -1.3%;
+}
 #c1{
     width:343% ;
     }
     #dbox{
         margin-left: -13%;
     width: 388%;
-    margin-top: -2%;
+    margin-top: -9%;
     }
     #c2{
         width: 352%;
