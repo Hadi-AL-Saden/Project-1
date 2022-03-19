@@ -3,9 +3,9 @@ html{
 }
 .img1{
     
-    margin: -1%;
+    margin-top: -2%;
     background-image: url("../Image/RWBzYW1.png");
-    width: 1922px;
+    width: 1903px;
     height: 800px;
 }
 #p1{font-size: 20px;
@@ -89,19 +89,27 @@ html{
     height: 20px;
     border-end-end-radius:  15px;
 }
-.font{
+.font{    margin: 10px;
     font-family: 'Lobster', cursive;
     
 }
+.mm{
+    margin: 13px;
+}
+  
+
 /* ************************************************************************************************************************************** */
 .nav{
-    background-color: black;
-    margin-top: -5px;
-    margin-left: 21px;
     position: fixed;
+    background-color: rgb(61 72 106);
+    height: 39px;
+    width: 382px;
+    margin-top: -41.3%;
+    margin-left: 42%;
+    border: 2px #ffffff dashed;
 }
 .footer{
-   
+    margin-top: -5%;
 width: 1903px;
     height: 229px;
     background-color: black;
@@ -133,7 +141,7 @@ width: 1903px;
 /* ************************************************************************************************************************************** */
 .form{
     font-family: 'Sansita Swashed', cursive;
-    margin-top: 10%;
+    margin-top: 3%;
     border-radius: 10px;
     border:rgb(255, 162, 23) 3px dashed ;
     background-color: #94928e;
@@ -142,7 +150,7 @@ width: 1903px;
 }
 #res{
     margin-left: 10px;
-    margin-top: -4%;
+    margin-top: -5%;
     width: 98%;
     background-color: orange;
     height: 40px;

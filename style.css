@@ -5,10 +5,11 @@ html{
 
 
 #nav{
-    
-    background-color: #af8b6f;
+    background-color: rgb(61 72 106);
     height: 39px;
-    width: 100%;
+    width: 536px;
+    margin-left: 38%;
+    border: 2px #ffffff dashed;
     
     
 }
@@ -38,7 +39,7 @@ html{
 
     font-family: 'Roboto Slab', serif;
     text-align: center;
-    color: rgb(112, 112, 112);
+    color: rgb(255, 255, 255);
     font-size:30px;
     margin: -20px;
 }
@@ -56,7 +57,7 @@ html{
 text-align: center;
 font-size: 25px;
 margin-left: 6%;
-color: #707070;
+color: #ffffff;
 }
 /* *********************objective END************************* */
 
@@ -69,14 +70,14 @@ color: #707070;
     margin-top: 200px;
 }
 
-.dd{
+.dd{    margin-top: 244px;
     background-color: #f7a000;
     height: 15px;
     width: 300px;
     border-radius: 10px;
 }
 
-.dd2{
+.dd2{    margin-top: 244px;
     background-color: #f7a000;
     height: 15px;
     width: 300px;
@@ -88,13 +89,13 @@ color: #707070;
     
     font-family: 'Zilla Slab', serif;
     text-align: center;
-    color: rgb(109, 116, 114);
+    color: rgb(255, 255, 255);
     font-size:40px;
     margin-left: 70px;
     margin-top: 224px    ;
 }
 #dbox{
-    width: 100%;
+    width: 106%;
 }
 .box1{
     
@@ -111,13 +112,13 @@ color: #707070;
 }
 #b2{
     border: 4px rgb(206, 117, 0) double;
-    margin-left: 22%;
+    margin-left: 19%;
    
 }
-.ep{
+.ep{margin: 10px;
     text-align: center;
     font-size: 20px;
-    color: rgb(95, 86, 86);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -127,7 +128,7 @@ color: #707070;
 #c2{
     flex-direction: row;
     margin-left: 100px;
-    margin-top: 200px;
+    margin-top: 59px;
 }
 
 .dd3{
@@ -149,7 +150,7 @@ color: #707070;
 #p4{
     font-family: 'Zilla Slab', serif;
     text-align: center;
-    color: rgb(109, 116, 114);
+    color: rgb(255, 255, 255);
     font-size:30px;
     margin-left: 52px;
     margin-top: -24px    ;
@@ -166,7 +167,7 @@ color: #707070;
 
 
 /* *********************PECENT PROJECTS Start****************** */
-#M{
+#M{color: wheat;
     margin-top: 70px; 
     text-align: center;
 }
@@ -218,7 +219,7 @@ color: #707070;
 #p5{
     font-family: 'Zilla Slab', serif;
     
-    color: rgb(109, 116, 114);
+    color: rgb(255, 255, 255);
     font-size:30px;
     margin-left: 102px;
     margin-top: -24px    ;
@@ -233,7 +234,7 @@ color: #707070;
     border: 5px rgb(155, 143, 143) double;
    
 }
-#p6{
+#p6{margin: 26px;
     font-size: 20px;
     text-align: left;
     
@@ -260,7 +261,7 @@ color: #707070;
 .footer-black
 {
     margin-top: 20px;
-    background-color: rgb(175, 139, 111);
+    background-color: rgb(65 76 110);
     height: 20px;
     width: 100%;
     
@@ -268,7 +269,7 @@ color: #707070;
 
 .footer
 {
-    background-color: #e78504a8;
+    background-color: rgb(0 0 0 / 66%);;
     height:215px;
     width: 100%;
 }
@@ -372,8 +373,7 @@ color: #707070;
     width: 100%;
 }
 
-element.style {
-}
+
 #p3 {
     font-family: "Zilla Slab", serif;
     text-align: center;
